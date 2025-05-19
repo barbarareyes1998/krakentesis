@@ -15,8 +15,8 @@ layout = html.Div(
         ),
         html.Div(
             [
-                html.A("Configuration", className="header_active", id="header_config", href="/config"),
-                html.A("Spectrum", className="header_inactive", id="header_spectrum", href="/spectrum"),
+                html.A("Configuracion", className="header_active", id="header_config", href="/config"),
+                html.A("Espectro", className="header_inactive", id="header_spectrum", href="/spectrum"),
                 html.A("DoA Estimation", className="header_inactive", id="header_doa", href="/doa"),
                 html.Div(
                     [
